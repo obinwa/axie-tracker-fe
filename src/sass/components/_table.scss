@@ -1,0 +1,60 @@
+.table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  position: relative;
+  &__head {
+    background: rgba(241, 243, 246, 0.96);
+    border-radius: 2.59932px;
+    th {
+      @include table-head;
+    }
+  }
+
+  th,
+  td {
+    padding: 1rem;
+  }
+  tbody > tr{
+    cursor: pointer;
+  }
+
+  &,
+  td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  tr td:last-child {
+    position: relative;
+
+    & > img {
+      cursor: pointer;
+    }
+
+    ul {
+      position: absolute;
+      margin: 0;
+      // right: -10px;
+      top: 15px;
+      padding: 0;
+      list-style: none;
+      background-color: #ccc;
+      border-radius: 5px;
+      width: 120px;
+      box-shadow: var(--bx-shadow);
+      z-index: 10000000;
+
+      li {
+        padding: 10px;
+        text-align: center;
+        background-color: white;
+        color: var(--main-color);
+        cursor: pointer;
+
+        &:hover {
+          color: white;
+          background-color: var(--main-color);
+        }
+      }
+    }
+  }
+}

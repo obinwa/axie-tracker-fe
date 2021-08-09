@@ -1,0 +1,37 @@
+.pagination {
+  width: 100%;
+  margin-top: 2rem;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > * {
+      margin-right: 1rem;
+      cursor: pointer;
+    }
+  }
+
+  &__img {
+    height: 21px;
+    width: 21px;
+    background: rgba(56, 163, 255, 0.15);
+    border-radius: 3.49765px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.active {
+  height: 21px;
+  width: 21px;
+  background-color: var(--main-color);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+}

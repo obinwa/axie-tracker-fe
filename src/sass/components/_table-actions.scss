@@ -1,0 +1,28 @@
+.table__actions {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    button {
+      align-self: flex-end;
+    }
+  }
+
+  &-form {
+    flex-basis: 50%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+ 
+    div {
+      width: 100%;
+      margin-right: 2rem;
+      margin-bottom: 0 !important;
+    }
+
+    button {
+      align-self: flex-end;
+    }
+  }
+}

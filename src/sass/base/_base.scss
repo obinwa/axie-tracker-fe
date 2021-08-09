@@ -1,0 +1,32 @@
+:root{
+    --main-color:#38A3FF;
+    --secondary-color: #394C60;
+    --bx-shadow:  0px 0px 4.96947px rgba(0, 0, 0, 0.2);
+    --bg-color: #F1F3F6;
+    --white-bg-color: #ffffff;
+    --font-family: 'Poppins', sans-serif;
+    --border-radius: 10px;
+    --backdrop-filter: rgba(36, 36, 36, .55);
+    --bg-color-2: rgba(64, 184, 96, 0.15);
+    --bg-color-3: rgba(56, 163, 255, 0.15);
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+  font-size: 100%; // 1rem = 16px = 100%
+  box-sizing: border-box;
+  overflow-x: hidden
+
+}
+
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,17 @@
+.transaction {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  z-index: 0;
+  &__table {
+    margin-top: 3rem;
+    background-color: var(--white-bg-color);
+    border-radius: var(--border-radius);
+
+    &-container {
+      width: 95%;
+      margin: auto;
+      padding: 2rem 0;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.add {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    background-color: var(--white-bg-color);
+    width: 500px;
+    padding: 2rem;
+    box-shadow: 0px 0px 4.96947px rgba(0, 0, 0, 0.2);
+    border-radius: 7.09924px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    img{
+      cursor: pointer;
+    }
+  }
+
+  &__buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    button {
+      margin-right: 0.6rem;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      span{
+          font-size: 14px !important;
+          font-family: var(--font-family);
+          font-weight: 600;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.button {
+  padding: 0.9rem 1rem;
+  border-radius: 2.7191px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  font-size: 1.2rem;
+  &:focus {
+    outline: none;
+  }
+
+  &-grey {
+    background-color: var(--secondary-color);
+    &-2 {
+      background-color: rgba(57, 76, 96, 0.15);
+      span {
+        color: #394c60 !important;
+      }
+    }
+  }
+
+  &-blue {
+    background-color: var(--main-color);
+  }
+  img {
+    margin-right: 1rem;
+  }
+  span {
+    font-weight: 600;
+    font-size: 0.7rem;
+    line-height: 13px;
+    text-transform: capitalize;
+
+    color: #ffffff;
+  }
+}
