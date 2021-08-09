@@ -1,4 +1,4 @@
 {
-  "baseUrlLocal":"http://localhost:3300/axie-scholar-management/",
-  "baseUrl":"https://axie-tracker-be.herokuapp.com/axie-scholar-management/"
+  "baseUrl":"http://localhost:3300/axie-scholar-management/",
+  "baseUrlP":"https://axie-tracker-be.herokuapp.com/axie-scholar-management/"
 }
