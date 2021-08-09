@@ -23,7 +23,7 @@ const Customer = (props) => {
     name: {
       label: "Name",
       placeholder: "John Doe",
-      svg: name,
+      // svg: name,
       value: "",
       elementType: "input",
       type: "text",
