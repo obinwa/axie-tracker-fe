@@ -1,5 +1,5 @@
 {
-  "name": "diamondhouse",
+  "name": "axie-tracker",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://diamondhouse-env.eba-mmzmjptm.us-east-1.elasticbeanstalk.com",
